@@ -58,4 +58,18 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
-6. dah siapp
+6. run migration
+
+```bash
+php artisan migrate:fresh
+```
+
+7. start server & vite
+
+```bash
+php artisan serve
+```
+
+```bash
+npm run dev
+```
